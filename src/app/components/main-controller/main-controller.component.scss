@@ -7,10 +7,14 @@
 }
 
 .toolbar {
-    padding: 16px;
+    padding: 16px 128px;
 
     mat-toolbar {
         border-radius: 8px;
         background-color: #5C8374;
+
+        .options {
+            gap: 16px;
+        }
     }
 }
