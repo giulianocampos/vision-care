@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
+import { HomeModule } from './routes/home/home.module';
+
 import { AppComponent } from './app.component';
 import { MainControllerComponent } from './components/main-controller/main-controller.component';
 
@@ -14,14 +16,14 @@ import { AssetsComponent } from './routes/assets/assets.component';
   declarations: [
     AppComponent,
     MainControllerComponent,
-    HomeComponent,
     AssetsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
