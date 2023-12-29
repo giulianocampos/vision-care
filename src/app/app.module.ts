@@ -8,12 +8,14 @@ import { MainControllerComponent } from './components/main-controller/main-contr
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { HomeComponent } from './routes/home/home.component';
+import { AssetsComponent } from './routes/assets/assets.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainControllerComponent,
-    HomeComponent
+    HomeComponent,
+    AssetsComponent
   ],
   imports: [
     BrowserModule,
