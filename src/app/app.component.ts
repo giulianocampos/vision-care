@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IconSvgService } from './components/icon-svg/icon-svg.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'visioncare';
+
+  constructor(
+    private iconSvgService: IconSvgService
+  ) {
+  }
 }

@@ -9,21 +9,20 @@ import { MainControllerComponent } from './components/main-controller/main-contr
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { HomeComponent } from './routes/home/home.component';
-import { AssetsComponent } from './routes/assets/assets.component';
+import { AssetsModule } from './routes/assets/assets.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainControllerComponent,
-    AssetsComponent
+    MainControllerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    HomeModule
+    HomeModule,
+    AssetsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
