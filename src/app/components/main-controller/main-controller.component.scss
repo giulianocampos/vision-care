@@ -3,7 +3,7 @@
 }
 
 .container {
-    background-color: #f3f3f3;
+    background-color: #f5f7fa;
 }
 
 .toolbar {
@@ -11,10 +11,16 @@
 
     mat-toolbar {
         border-radius: 8px;
-        background-color: #5C8374;
+        background-color: #e9ecf1;
 
         .options {
-            gap: 16px;
+            gap: 32px;
         }
+    }
+}
+
+.footer {
+    mat-tooLbar {
+        background-color: #5C8374;
     }
 }

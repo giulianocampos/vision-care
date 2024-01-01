@@ -2,6 +2,37 @@
     padding: 16px;
 }
 
+.title {
+    padding-bottom: 16px
+}
+
 mat-card {
     max-width: 400px;
 }
+
+.assets-cards-container {
+    gap: 32px;
+    max-height: 700px;
+    background-color: #e9ecf1;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.assets-cards {
+    overflow: auto;
+    gap: 16px;
+}
+
+.assets-cards-wrapper {
+    max-width: 450px;
+    gap: 16px;
+}
+
+.cards-title {
+    padding: 8px;
+    background-color: #2ac88d;
+    border-radius: 8px;
+}
+
+//#15a6f0 - blue
+//#2ac88d - green
