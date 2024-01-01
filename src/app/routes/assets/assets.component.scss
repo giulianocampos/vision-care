@@ -2,6 +2,33 @@
     padding: 16px;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #8e8e8e; /* Cor do "ponteiro" da barra de rolagem */
+    border-radius: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 8px;
+    // margin-block: 14px;
+  }
+
+  ::-moz-scrollbar {
+    width: 8px;
+  }
+
+  ::-moz-scrollbar-thumb {
+    background-color: #8e8e8e; /* Cor do "ponteiro" da barra de rolagem */
+  }
+
+  ::-moz-scrollbar-track {
+    border-radius: 8px;
+    margin-block: 14px;
+  }
+
 .title {
     padding-bottom: 16px
 }
